@@ -10,8 +10,9 @@
 }
 
 /* Tailwind components should be used as a last resort. Try using Gatsby/React Components instead */
-@components {
+
+@layer components {
   .menu-item {
-    @apply relative flex h-full cursor-pointer items-center p-2 font-bold text-pink-200 transition-colors ease-in-out hover:bg-white/10 hover:text-zinc-200;
+    @apply relative flex h-full cursor-pointer items-center p-4 font-bold text-pink-200 transition-colors ease-in-out hover:bg-white/10 hover:text-zinc-200;
   }
 }

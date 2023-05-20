@@ -1044,6 +1044,26 @@ html {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.animation-delay-200{
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+.animation-delay-\[150ms\]{
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+}
+
+.animation-delay-300{
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+.animation-delay-\[75ms\]{
+  -webkit-animation-delay: 75ms;
+          animation-delay: 75ms;
+}
+
 /* Tailwind components should be used as a last resort. Try using Gatsby/React Components instead */
 
 .hover\:bg-white\/10:hover{

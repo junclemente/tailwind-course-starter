@@ -627,6 +627,19 @@ h6{
   }
 }
 
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5rem $theme("spacing.4");
+  border-radius: 0.5rem;
+}
+
+.btn-\[\#000\]{
+  background-color: #000;
+  color: white;
+}
+
 .menu-item{
   position: relative;
   display: flex;
@@ -828,10 +841,6 @@ h6{
 
 .h-80{
   height: 20rem;
-}
-
-.h-\[250px\]{
-  height: 250px;
 }
 
 .min-h-\[400px\]{
@@ -1111,11 +1120,6 @@ h6{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.via-pink-500{
-  --tw-gradient-to: rgb(236 72 153 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), #ec4899, var(--tw-gradient-to);
-}
-
 .via-cyan-900{
   --tw-gradient-to: rgb(22 78 99 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), #164e63, var(--tw-gradient-to);
@@ -1163,11 +1167,6 @@ h6{
   padding-right: 1rem;
 }
 
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1176,6 +1175,11 @@ h6{
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pr-4{

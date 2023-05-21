@@ -679,6 +679,14 @@ h6{
   position: sticky;
 }
 
+.top-24{
+  top: 6rem;
+}
+
+.right-0{
+  right: 0px;
+}
+
 .top-0{
   top: 0px;
 }
@@ -695,16 +703,8 @@ h6{
   top: 100%;
 }
 
-.right-0{
-  right: 0px;
-}
-
 .-top-8{
   top: -2rem;
-}
-
-.top-24{
-  top: 6rem;
 }
 
 .z-10{
@@ -751,6 +751,10 @@ h6{
 
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
 }
 
 .block{
@@ -809,6 +813,10 @@ h6{
   min-height: 400px;
 }
 
+.w-12{
+  width: 3rem;
+}
+
 .w-8{
   width: 2rem;
 }
@@ -823,10 +831,6 @@ h6{
 
 .w-1{
   width: 0.25rem;
-}
-
-.w-12{
-  width: 3rem;
 }
 
 .min-w-\[80\%\]{
@@ -847,6 +851,10 @@ h6{
 
 .grow{
   flex-grow: 1;
+}
+
+.border-collapse{
+  border-collapse: collapse;
 }
 
 .rotate-180{
@@ -952,14 +960,14 @@ h6{
   border-radius: 0.125rem;
 }
 
-.rounded-b-md{
-  border-bottom-right-radius: 0.375rem;
-  border-bottom-left-radius: 0.375rem;
-}
-
 .rounded-l-lg{
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-b-md{
+  border-bottom-right-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
 }
 
 .border{
@@ -974,9 +982,19 @@ h6{
   border-color: rgb(255 255 255 / 0.4);
 }
 
+.border-zinc-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(113 113 122 / var(--tw-border-opacity));
+}
+
 .bg-zinc-200{
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
 .bg-pink-500{
@@ -1001,11 +1019,6 @@ h6{
 .bg-pink-100{
   --tw-bg-opacity: 1;
   background-color: rgb(252 231 243 / var(--tw-bg-opacity));
-}
-
-.bg-zinc-900{
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r{
@@ -1042,6 +1055,10 @@ h6{
   padding: 1rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1050,6 +1067,11 @@ h6{
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pr-4{
@@ -1068,6 +1090,11 @@ h6{
   text-align: right;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1083,9 +1110,9 @@ h6{
   line-height: 1.25rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold{
@@ -1208,6 +1235,10 @@ h6{
           animation-delay: 75ms;
 }
 
+.caption-bottom{
+  caption-side: bottom;
+}
+
 /* Tailwind components should be used as a last resort. Try using Gatsby/React Components instead */
 
 .hover\:bg-white\/10:hover{
@@ -1295,14 +1326,14 @@ h6{
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:text-zinc-200{
-  --tw-text-opacity: 1;
-  color: rgb(228 228 231 / var(--tw-text-opacity));
-}
-
 .dark .dark\:text-zinc-900{
   --tw-text-opacity: 1;
   color: rgb(24 24 27 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-zinc-200{
+  --tw-text-opacity: 1;
+  color: rgb(228 228 231 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px){
